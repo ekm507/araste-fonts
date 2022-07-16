@@ -6,7 +6,6 @@ from PIL import Image, ImageDraw, ImageFont
 from sys import argv
 
 # تنظیمات
-image_name = 'input.png'
 output_image_name = 'output.png'
 font_path = './Vazir'
 font_size = 350
