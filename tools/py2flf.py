@@ -54,7 +54,7 @@ def print_cg(k):
     else:
         glyph = font_glyphs[' ']
     print(k)
-    print(glyph.replace('*', '#').replace('\n', '@\n')[:-1]+'@')
+    print(glyph.replace('\n', '@\n')+'@@')
 
 z = []
 for k in font_glyphs.keys():
