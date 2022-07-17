@@ -7,3 +7,6 @@
 ![](Images/sangi.png)
 قلم سنگی که برپایهٔ قلم پیکسلی [عرفان](https://github.com/ekm507/erfan-font) ساخته شده است.
 
+### sangi_mini
+![](Images/sangi.png)
+قلم سنگی کوچک که برپایهٔ قلم پیکسلی [عرفان](https://github.com/ekm507/erfan-font) ساخته شده است.
