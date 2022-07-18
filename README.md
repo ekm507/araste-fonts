@@ -1,7 +1,7 @@
 # araste-fonts قلم‌های آراسته
 <div align="center"><image src="https://github.com/ekm507/araste-fonts/raw/main/Images/Logo.png"></div>
-قلم‌های افزوده‌شده به آراسته. contrib fonts for araste
 
+قلم‌های افزوده‌شده به آراسته. contrib fonts for araste<br>
 مجموعه‌ای از قلم‌های ساخته‌شده و راهنماها و ابزارهایی برای ساخت و توسعهٔ قلم برای نرم‌افزار [آراسته](https://github.com/ekm507/araste).
 
 [راهنمایی‌هایی برای طراحی قلم](./howto/README.md)<br>
