@@ -14,3 +14,6 @@
 قلم سنگی کوچک که برپایهٔ قلم پیکسلی [عرفان](https://github.com/ekm507/erfan-font) ساخته شده است.
 ### Mahni:
 <div align="center"><img src="https://github.com/ekm507/araste-fonts/raw/main/Images/mahni.png"></div>
+
+### Six-Z:
+<div align="center"><img src="https://github.com/ekm507/araste-fonts/raw/main/Images/Six-Z.png"><br><br>
