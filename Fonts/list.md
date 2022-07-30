@@ -47,7 +47,7 @@ aipara_mini font
   
 
 # X
-Nima font  
+X font  
     this is a font file for araste  
     designed by Nima Fanniasl <smartnima.com>  
   
