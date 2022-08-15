@@ -92,13 +92,13 @@ aff2_headers =[
     # block height
     str(flf_headers[1]),
     # baseline
-    str(flf_headers[2]),
+    str(int(flf_headers[2]) + 1),
     # number of comment lines
     str(flf_headers[5]),
     # maximum width of blocks
     str(flf_headers[3]),
     # number of blocks
-    str(flf_headers[8])
+    str(flf_headers[8]).rstrip('\n'),
 ]
 
 # print header
