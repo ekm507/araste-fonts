@@ -32,9 +32,9 @@ def glyph_header_flf2aff2(header: str, direction) -> str:
         if header[-1] == variation_identifier:
             variation = 2
         else:
-            variation = 1
+            variation = 3
     elif header[-1] == variation_identifier:
-        variation = 3
+        variation = 1
     else:
         variation = 4
     
