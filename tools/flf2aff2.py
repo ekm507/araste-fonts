@@ -28,6 +28,7 @@ def glyph_header_flf2aff2(header: str, direction) -> str:
     # final = 3
     # isolated = 4
     
+
     if header[0] == variation_identifier:
         if header[-1] == variation_identifier:
             variation = 2
@@ -78,11 +79,18 @@ for _ in range(comment_lines):
 # get font characters
 # font glyphs is character to block
 font_glyphs = dict()
-for i in range(num_chars):
+i = 0
+while True:
     persianchars = fontfile.readline()[:-1]
+    if len (persianchars) < 1:
+        break
     persianasciichars = '\n'.join(
         [fontfile.readline()[:-2] for _ in range(boardh)])[:-1]
     font_glyphs[persianchars] = persianasciichars
+
+    i += 1
+
+num_chars = i
 
 
 # generate header
@@ -98,7 +106,7 @@ aff2_headers =[
     # maximum width of blocks
     str(flf_headers[3]),
     # number of blocks
-    str(flf_headers[8]).rstrip('\n'),
+    str(num_chars),
 ]
 
 # print header
