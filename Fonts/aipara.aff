@@ -1,4 +1,4 @@
-aff2 8 5 4 18 143
+aff2 8 5 4 18 144
 aipara font
     this is a font file for araste
     designed by Erfan Kheyrollahi <ekm507@gmail.com>
@@ -19,7 +19,7 @@ aipara font
   ██    
     ██  
     ██  
-    ██  
+    ████
         
         
         
@@ -1374,7 +1374,7 @@ aipara font
 
 
  
-4 1
+0 1
    
    
    
@@ -1425,11 +1425,21 @@ aipara font
       
 لا
 0 1
+          
   ██    ██
-   ██   ██
+  ██    ██
     ██  ██
   ████████
           
           
-          
            
+هٔ
+3 1
+   █   ██
+  █    █
+   ████   ███
+         ████
+           ██
+             
+             
+             
