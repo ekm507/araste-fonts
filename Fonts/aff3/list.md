@@ -43,13 +43,13 @@ sangi font
     designed by Erfan Kheyrollahi <ekm507@gmail.com>  
   
 
-# nim
+# nima
 Nima font  
     this is a font file for araste  
     designed by Nima Fanniasl <smartnima.com>  
   
 
-# aipar
+# aipara
 aipara font  
     this is a font file for araste  
     designed by Erfan Kheyrollahi <ekm507@gmail.com>  
