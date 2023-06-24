@@ -25,7 +25,7 @@ for font_file_name in filter(lambda x : x.endswith('.aff'), files_list):
             if font_header[0] == HEADER_DOCTYPE:
 
                 # print font name (this is the name that araste-get uses)
-                print('# ' + font_file_name.rstrip('.aff'), file=list_file)
+                print('# ' + font_file_name[:-len(HEADER_DOCTYPE)], file=list_file)
 
                 # print font comments below
                 for _ in range(int(font_header[3])):
